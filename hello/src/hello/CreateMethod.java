@@ -8,7 +8,7 @@ public class CreateMethod {
 	public static void main(String[] args) {
      	CallMethod call= new CallMethod(); //CallMethod 객체 생성
 		List<String> fruitList = new ArrayList<String>(); //과일 리스트
-		List<String> tripList = new ArrayList<String>(); // 여행 리스트 
+		List<String> tripList = new ArrayList<String>(); // 여행 리스트
 
 		//과일 리스트
 		fruitList.add("포도");
@@ -22,8 +22,8 @@ public class CreateMethod {
 		tripList.add("한국");
 		tripList.add("한국");
 
-	    System.out.print(call.retrunExceptionFruitMsg(fruitList,"fruit")); //fruit 함수 호출
-	    System.out.print(call.retrunExceptionFruitMsg(tripList,"trip")); //fruit 함수 호출
+	    System.out.print(call.retrunExceptionMsg(fruitList,"fruit")); //fruit 함수 호출
+	    System.out.print(call.retrunExceptionMsg(tripList,"trip")); //fruit 함수 호출
 
 	}
 }

@@ -4,7 +4,7 @@ import java.util.List;
 
 class CallMethod {
 
-	public String retrunExceptionFruitMsg(List<String> list, String select) {
+	public String retrunExceptionMsg(List<String> list, String select) {
 		String returnStr = ""; // 반환할 리턴값 담을 변수
 	   	String fruitStr= ""; // 과일 값을 담을 String 변수
 
