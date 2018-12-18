@@ -13,11 +13,15 @@ public class CreateMethod {
 
 		//과일 리스트
 		fruitList.add("과일");
+		fruitList.add(null);
 		fruitList.add("과일");
-		fruitList.add("과776657일");
+
+
 
 		//여행지 리스트
-		tripList.add(null);
+		tripList.add("한국한국");
+		tripList.add("한국한국");
+
 
 		//음식 리스트
 		foodList.add("음식");
